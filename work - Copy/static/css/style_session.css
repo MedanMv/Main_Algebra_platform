@@ -1,0 +1,35 @@
+/* General body styling */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Button styling */
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Warning message styling */
+
+#formulas-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#formulas-table th, #formulas-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#formulas-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
